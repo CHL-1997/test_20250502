@@ -1,10 +1,11 @@
 
+CC:= gcc
+TARGET:= app
 
-
-all:
-    
+all:$(TARGET)
+    $(CC) $^ -o $@
 
 clean:
-
+    -rm-rf $(TARGET)
 
 .PHONY: all clean
