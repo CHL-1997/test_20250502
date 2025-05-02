@@ -1,5 +1,7 @@
 
 CC:= gcc
+FLAG:= -lpthread
+
 TARGET:= app
 
 all:$(TARGET)
